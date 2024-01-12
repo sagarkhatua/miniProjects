@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(187, 58, 58, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.ammount {
+  padding-bottom: 0.7rem;
+}
+form {
+  margin: 2rem 0 1rem 0;
+}
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+form input {
+  height: 4vh;
+  padding-left: 0.75rem;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid green;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.7px solid green;
+  border-radius: 10px;
+  background-color: brown;
+}
+.select-container img {
+  max-width: 3rem;
+  padding-left: 5px;
+}
+.select-container select {
+  background-color: brown;
+  color: azure;
+  font-size: 18px;
+}
+i {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.msg {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  color: black;
+  -webkit-text-stroke-width: 0.75px;
+  -webkit-text-stroke-color: rgb(243, 236, 236);
+  font-size: 20px;
+  font-weight: bold;
+}
+form button {
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.15rem;
+  background-color: brown;
+  color: azure;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.5s;
+}
+.container h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+form button:hover {
+  background-color: #3e8e41;
+}
+
+form button:active {
+  background-color: black;
+  box-shadow: 0 5px #230404;
+  transform: translateY(2px);
+}
+.container {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(172, 164, 217, 1) 100%
+  );
+  padding: 2rem;
+  border-radius: 30px;
+  min-height: 50vh;
+  width: 45vh;
+}
