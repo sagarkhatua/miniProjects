@@ -1,2 +1,4 @@
 # miniProjects
-<h1>using javaScript ,Htm ,CSS
+<h1>using
+<ol>
+  <li>javaScript ,Htm ,CSS
